@@ -1,12 +1,12 @@
-export const servicesObj = {
+export const contactObj = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: '',
-  headline: 'Services Page',
+  headline: 'Contact Page or Link',
   description: '',
   buttonLabel: '',
-  imgStart: '',
-  img: 'images/solution.svg',
+  imgStart: 'start',
+  img: 'images/direction.svg',
   alt: 'Vault',
 };

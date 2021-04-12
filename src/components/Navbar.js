@@ -55,12 +55,12 @@ function Navbar() {
               </li>
               <li className='nav-btn' onClick={closeMobileMenu}>
                 {button ? (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='/contact' className='btn-link'>
                     <Button buttonStyle='btn--outline'>CONTACT</Button>
                   </Link>
                 ) : (
                   <Link
-                    to='/sign-up'
+                    to='/contact'
                     className='btn-link'
                     onClick={closeMobileMenu}
                   >

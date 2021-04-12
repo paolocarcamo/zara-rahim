@@ -1,11 +1,11 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
-import { homeObjThree } from './Data';
+import { contactObj } from './Data';
 
 function SignUp() {
   return (
     <>
-      <HeroSection {...homeObjThree} />
+      <HeroSection {...contactObj} />
     </>
   );
 }
