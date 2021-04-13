@@ -2,26 +2,34 @@ export const homeObjOne = {
   lightBg: false,
   lightText: false,
   lightTextDesc: false,
+  shiftRight: true,
   topLine: '',
-  headline: 'Is your current project lacking clarity?',
-  description: '',
+  headline: '',
+  description: `  Zara Rahim is a strategic advisor to leaders,
+  startups, public figures, established brands
+  and media properties who are growing and
+  evolving at the intersection of social impact
+  cultural and policy. Zara ushers her clients
+  and projects to relevancy and success
+  through strategic communications, digital
+  media strategy, and partnerships.`,
   buttonLabel: '',
-  imgStart: '',
-  img: 'images/confusion.svg',
-  alt: 'Credit Card',
+  imgStart: 'start',
+  img: '',
+  alt: '',
 };
 
 export const homeObjTwo = {
-  lightBg: true,
+  lightBg: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: '',
-  headline: 'Is your business stuck and looking for solutions?',
+  topLine: 'What I offer:',
+  headline: '',
   description: '',
   buttonLabel: '',
-  imgStart: 'start',
-  img: 'images/solution.svg',
-  alt: 'Vault',
+  imgStart: '',
+  img: '',
+  alt: '',
 };
 
 export const homeObjThree = {
@@ -29,26 +37,25 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: true,
   topLine: '',
-  headline:
-    'Or are you having a hard time navigating the complex media, cultural, and political landscape',
+  headline: '',
   description: '',
   buttonLabel: '',
   imgStart: '',
-  img: 'images/compass.svg',
-  alt: 'Vault',
+  img: '',
+  alt: '',
 };
 
 export const homeObjFour = {
-  lightBg: true,
+  lightBg: false,
   lightText: false,
   lightTextDesc: false,
   topLine: '',
-  headline: 'Let me be your wayfinder.',
+  headline: '',
   description: '',
   buttonLabel: '',
-  imgStart: 'start',
-  img: 'images/direction.svg',
-  alt: 'Vault',
+  imgStart: '',
+  img: '',
+  alt: '',
 };
 
 export const testimonialObj = {
@@ -58,4 +65,32 @@ export const testimonialObj = {
   quotee: '- Ziwe Fumudoh, A24',
   quote: 'images/quote.svg',
   alt: 'Quote',
+};
+
+export const offersObj = {
+  topLine: 'What I offer:',
+  headline: `  - make connections that create new possibilites
+  - develop brand, project + mission startegy
+  - navigate tough questions in the context of today
+  - co-create a vision to expand influence`,
+  finePrint: `* What I don't do: book talent, write press releases`,
+};
+
+export const clientsObj = {
+  lightBg: false,
+  lightText: false,
+  lightTextDesc: false,
+  shiftRight: true,
+  topLine: `    Clients`,
+  headline: `  vouge magazine
+  hilary for america
+  uber
+  obama for america
+  the white house
+  the wing
+  a24`,
+  buttonLabel: '',
+  imgStart: 'start',
+  img: '',
+  alt: '',
 };

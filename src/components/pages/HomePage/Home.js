@@ -1,22 +1,17 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
 import Testimonial from '../../Testimonial';
-import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree,
-  homeObjFour,
-  testimonialObj,
-} from './Data';
+import Clients from '../../Clients';
+import Offers from '../../Offers';
+import { homeObjOne, testimonialObj, offersObj, clientsObj } from './Data';
 
 function Home() {
   return (
     <>
-      <HeroSection {...homeObjOne} />
-      <HeroSection {...homeObjTwo} />
-      <HeroSection {...homeObjThree} />
-      <HeroSection {...homeObjFour} />
       <Testimonial {...testimonialObj} />
+      <HeroSection {...homeObjOne} />
+      <Offers {...offersObj} />
+      <Clients {...clientsObj} />
     </>
   );
 }

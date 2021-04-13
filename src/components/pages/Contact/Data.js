@@ -3,10 +3,10 @@ export const contactObj = {
   lightText: false,
   lightTextDesc: false,
   topLine: '',
-  headline: 'Contact Page or Link',
+  headline: 'Contact Page or Link to email',
   description: '',
   buttonLabel: '',
   imgStart: 'start',
-  img: 'images/direction.svg',
+  img: 'images/compass.svg',
   alt: 'Vault',
 };

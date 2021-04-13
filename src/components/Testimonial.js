@@ -9,7 +9,7 @@ function Testimonial({ testimonial, quote, quotee, alt }) {
           <div className='col start-quote'>
             <img className='quoteImg' src={quote} alt={alt} />
           </div>
-          <div className='testimonial-row'>
+          <div className='col testimonial-row'>
             <div className='quote-wrapper'>
               <h1 className='quoted-text'>{testimonial}</h1>
               <p>{quotee}</p>

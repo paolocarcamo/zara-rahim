@@ -1,10 +1,10 @@
-.home__hero-section {
+.clients__hero-section {
   color: white;
-  padding: 80px 0;
+  padding: 150px 0;
   font-family: 'Montserrat', sans-serif;
 }
 
-.home__hero-row {
+.clients__hero-row {
   align-items: center;
 }
 
@@ -26,26 +26,27 @@
   flex-basis: 50%;
 }
 
-.home__hero-text-wrapper {
+.clients__hero-text-wrapper {
   padding-top: 0;
   padding-bottom: 60px;
 }
 
-.top-line {
+.clients__top-line {
   color: #000;
-  font-size: 16px;
-  margin-bottom: 16px;
+  font-size: 14px;
+  white-space: pre;
 }
 
-.heading {
+.clients__heading {
   font-family: Garamond;
   margin-bottom: 24px;
   font-size: 28px;
   line-height: 1.1;
   font-weight: 400;
-  color: #f7f8fa;
-  text-align: center;
+  color: #000;
+  text-align: left;
   white-space: pre;
+  text-transform: uppercase;
 }
 
 .dark {
@@ -56,7 +57,7 @@
   background-color: rgb(233, 111, 37);
 }
 
-.home__hero-subtitle {
+.clients__hero-subtitle {
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
@@ -64,12 +65,12 @@
   white-space: pre;
 }
 
-.home__hero-img-wrapper {
+.clients__hero-img-wrapper {
   max-width: 555px;
   text-align: center;
 }
 
-.home__hero-img {
+.clients__hero-img {
   max-width: 73%;
   padding-right: 0;
   margin: 0 0 0 10px;
@@ -95,7 +96,7 @@ img:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .home__hero-text-wrapper {
+  .clients__hero-text-wrapper {
     padding-bottom: 65px;
   }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css';
+import './Clients.css';
 
 function HeroSection({
   lightBg,
@@ -17,27 +17,27 @@ function HeroSection({
   return (
     <>
       <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
+        className={
+          lightBg ? 'clients__hero-section' : 'clients__hero-section darkBg'
+        }
       >
         <div className='container'>
           <div
-            className='row home__hero-row'
+            className='row clients__hero-row'
             style={{
               display: 'flex',
               flexDirection: imgStart === 'start' ? 'row-reverse' : 'row',
             }}
           >
             <div className='col'>
-              <div className='home__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
-                </h1>
+              <div className='clients__hero-text-wrapper'>
+                <div className='clients__top-line'>{topLine}</div>
+                <h1 className='clients__heading'>{headline}</h1>
                 <p
                   className={
                     lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
+                      ? 'clients__hero-subtitle'
+                      : 'clients__hero-subtitle dark'
                   }
                 >
                   {description}
@@ -45,8 +45,8 @@ function HeroSection({
               </div>
             </div>
             <div className='col'>
-              <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
+              <div className='clients__hero-img-wrapper'>
+                <img src={img} alt={alt} className='clients__hero-img' />
               </div>
             </div>
           </div>

@@ -57,7 +57,7 @@
 .btn--medium:hover,
 .btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background: rgb(233, 111, 36);
+  background: #fff;
   color: #242424;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .primary:hover {
-  background-color: rgb(233, 111, 36);
+  background-color: #fff;
   color: #242424;
 }
 
