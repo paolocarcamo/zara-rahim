@@ -6,17 +6,33 @@ import './Navbar.css';
 import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
+  const [show, setShow] = useState(false);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+
+  const showNavbar = () => {
+    if (window.scrollY > 0) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', showNavbar);
+    return () => {
+      window.removeEventListener('scroll', showNavbar);
+    };
+  }, []);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
       setButton(true);
+    } else {
+      setButton(false);
     }
   };
 
@@ -29,7 +45,7 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: '#000' }}>
-        <div className='navbar'>
+        <div className={show ? 'navbar' : 'navbar hide-navbar'}>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               ZARA RAHIM

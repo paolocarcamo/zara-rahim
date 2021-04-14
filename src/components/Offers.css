@@ -55,6 +55,18 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  .offers__top-line {
+    padding-bottom: 10px;
+  }
+
+  .offers-heading {
+    font-size: 20px;
+  }
+
+  .offers-wrapper p {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

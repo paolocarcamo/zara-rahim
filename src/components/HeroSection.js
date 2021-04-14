@@ -6,7 +6,6 @@ function HeroSection({
   topLine,
   lightText,
   lightTextDesc,
-  shiftRight,
   headline,
   description,
   buttonLabel,

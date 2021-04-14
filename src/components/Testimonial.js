@@ -4,7 +4,7 @@ import './Testimonial.css';
 function Testimonial({ testimonial, quote, quotee, alt }) {
   return (
     <>
-      <div className='testimonial'>
+      <div className='testimonial' id='testimonial-section'>
         <div className='testimonial-container'>
           <div className='col start-quote'>
             <img className='quoteImg' src={quote} alt={alt} />

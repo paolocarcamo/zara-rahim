@@ -6,10 +6,15 @@
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top: 0;
+  top: -80px;
   z-index: 999;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  transition: top 1s;
+}
+
+.hide-navbar {
+  top: 0;
 }
 
 .navbar-container {

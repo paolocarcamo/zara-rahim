@@ -55,7 +55,7 @@
 }
 
 .end-quote {
-  width: 10%;
+  width: 5%;
   display: flex;
   align-self: flex-start;
   justify-content: center;
@@ -66,6 +66,13 @@
   .testimonial-container {
     padding-right: 30px;
     padding-left: 30px;
+  }
+  .quoted-text {
+    font-size: 50px;
+  }
+
+  .quoteImg {
+    width: 40px;
   }
 }
 
