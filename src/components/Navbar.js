@@ -45,7 +45,7 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: '#000' }}>
-        <div className={show ? 'navbar' : 'navbar hide-navbar'}>
+        <div className={show ? 'navbar show-navbar' : 'navbar hide-navbar'}>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               ZARA RAHIM
