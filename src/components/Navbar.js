@@ -80,7 +80,7 @@ function Navbar() {
                     className='btn-link'
                     onClick={closeMobileMenu}
                   >
-                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
+                    <Button buttonStyle='btn--outline' buttonSize='btn--medium'>
                       LET'S TALK
                     </Button>
                   </Link>
