@@ -1,6 +1,9 @@
 .zara-wrapper {
   background-color: rgb(158, 193, 213);
-  padding: 250px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name {
