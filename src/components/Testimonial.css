@@ -23,9 +23,11 @@
 
 .testimonial-container h1 {
   text-transform: uppercase;
+  font-family: 'degular', sans-serif;
   text-align: center;
-  font-size: 1.7 rem;
+  font-size: 2.5rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 .testimonial-container p {

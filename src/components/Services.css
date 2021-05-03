@@ -1,0 +1,25 @@
+.services-container {
+  display: flex;
+  justify-content: left;
+}
+
+.list-of-services {
+  padding-left: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+.list-of-services h1 {
+  font-family: 'degular', sans-serif;
+  font-weight: 100;
+}
+
+.list-of-services h4 {
+  font-family: 'degular', sans-serif;
+  font-weight: 100;
+}
+
+#servicesHeader {
+  font-weight: 500;
+}

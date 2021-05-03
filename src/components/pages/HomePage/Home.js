@@ -2,9 +2,10 @@ import React from 'react';
 import Zara from '../../Zara';
 import Testimonial from '../../Testimonial';
 import Clients from '../../Clients';
-// import { } from './Data'; <-- import 'object' data from Data.js file (localized API)
 import Advisor from '../../Advisor';
 import Expertise from '../../Expertise';
+import Services from '../../Services';
+import Contact from '../../Contact';
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
       <Testimonial />
       <Advisor />
       <Expertise />
+      <Services />
       <Clients />
+      <Contact />
     </>
   );
 }

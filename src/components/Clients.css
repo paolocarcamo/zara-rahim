@@ -1,111 +1,134 @@
-.clients__hero-section {
-  color: white;
-  padding: 150px 0;
-  font-family: 'Montserrat', sans-serif;
+span {
+  background-color: transparent;
 }
 
-.clients__hero-row {
-  align-items: center;
-}
-
-.row {
+.clients-container {
   display: flex;
-  margin-right: -15px;
-  margin-bottom: -15px;
-  margin-left: -15px;
-  flex-wrap: wrap;
-  align-content: stretch;
-}
-
-.col {
-  margin-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
-}
-
-.clients__hero-text-wrapper {
-  padding-top: 0;
-  padding-bottom: 60px;
-}
-
-.clients__top-line {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: #000;
-  font-size: 14px;
-  white-space: pre;
-}
-
-.clients__heading {
-  font-family: Garamond;
-  margin-bottom: 24px;
-  font-size: 28px;
-  line-height: 1.1;
-  font-weight: 400;
-  color: #000;
-  text-align: left;
-  white-space: pre;
   text-transform: uppercase;
 }
 
-.dark {
-  color: #000;
+.client-line-image {
+  padding-left: 45px;
+  padding-bottom: 150px;
+  width: 300px;
 }
 
-.darkBg {
-  background-color: rgb(233, 111, 37);
-}
-
-.clients__hero-subtitle {
-  max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  white-space: pre;
-}
-
-.clients__hero-img-wrapper {
-  max-width: 555px;
+.client-list-container {
+  padding-top: 120px;
+  padding-left: 50px;
   text-align: center;
 }
 
-.clients__hero-img {
-  max-width: 73%;
-  padding-right: 0;
-  margin: 0 0 0 10px;
+.clients-container h3 {
+  font-family: 'degular', sans-serif;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
-img {
-  border: 0;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
+.previous-clients {
+  font-family: 'degular', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 0.6;
 }
 
-@media screen and (max-width: 991px) {
-  .container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
-  .clients__heading {
-    font-size: 36px;
-  }
+.previous-clients:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  .clients__hero-text-wrapper {
-    padding-bottom: 65px;
-  }
+.hidden-image {
+  display: none;
+  width: 25%;
+}
 
-  .col {
-    max-width: 100%;
-    flex-basis: 100%;
-  }
+#obama:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  img:hover {
-    transform: none;
-    transition: none;
-  }
+#obama {
+  background-color: transparent;
+}
+
+#hillary:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#white-house:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#a-two-four:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mariah:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#netflix:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#vogue:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#uber:hover + img {
+  display: flex;
+  position: fixed;
+  top: 30%;
+  left: 37%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

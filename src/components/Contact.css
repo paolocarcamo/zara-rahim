@@ -1,0 +1,35 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+
+.contact-image-container {
+  padding-top: 30px;
+  padding-right: 405px;
+}
+
+.contact-image {
+  width: 50px;
+}
+
+.contact-text-container {
+  padding-top: 50px;
+  padding-right: 360px;
+  text-align: center;
+}
+
+.contact-text-container h1 {
+  font-family: 'degular';
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 0.5;
+}
+
+.contact-text-container:hover {
+  color: #fff;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
