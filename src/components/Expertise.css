@@ -1,39 +1,33 @@
-.testimonial-section {
-  padding-top: 250px;
+.expertise-section {
+  padding-top: 10px;
 }
 
-.testimonial-image {
-  width: 300px;
-  margin-right: -60px;
-  margin-top: -10px;
+.expertise-image {
+  width: 200px;
 }
 
-.testimonial-container {
-  padding-left: 120px;
-  padding-bottom: 50px;
+.expertise-image-container {
+  margin-top: 100px;
+  margin-right: -30px;
+}
+
+.expertise-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-.quote-container {
-  margin-top: -20px;
+.expertise-description {
+  margin-right: 70px;
 }
 
-.testimonial-container h1 {
+.expertise-container h1 {
   text-transform: uppercase;
-  text-align: center;
-  font-size: 1.7 rem;
-  font-weight: 500;
-}
-
-.testimonial-container p {
-  margin-top: -10px;
-  text-transform: uppercase;
-  font-family: 'degular', sans-serif;
   text-align: center;
   font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 @media screen and (max-width: 991px) {

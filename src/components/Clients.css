@@ -83,11 +83,6 @@ img {
   display: inline-block;
 }
 
-img:hover {
-  transform: scale(1.06);
-  transition: all 0.3s ease-out;
-}
-
 @media screen and (max-width: 991px) {
   .container {
     padding-right: 30px;

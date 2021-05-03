@@ -15,9 +15,9 @@ function Testimonial() {
             />
           </div>
           <div className='quote-container'>
-            <h1 className='quoted-text'>
+            <h1>
               "she wouldn't take no <br />
-              for an answer"
+              for an answer."
             </h1>
             <br />
             <p>- fran lebowitz</p>
