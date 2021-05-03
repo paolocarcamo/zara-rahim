@@ -7,10 +7,7 @@ function Zara() {
     <>
       <div className='zara-wrapper'>
         <Link to='testimonial-section' smooth={true}>
-          <h1 className='name'>
-            ZARA
-            <br /> RAHIM
-          </h1>
+          <h1 className='name'>ZARA RAHIM</h1>
         </Link>
       </div>
     </>
