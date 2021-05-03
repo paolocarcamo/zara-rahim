@@ -1,5 +1,5 @@
 .navbar {
-  background: rgb(233, 111, 37);
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,16 +39,20 @@
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
 }
 
 .navbar-logo {
+  background-color: transparent;
   color: #000;
-  justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 .navbar-logo:hover {

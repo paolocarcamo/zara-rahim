@@ -14,7 +14,12 @@ function Expertise() {
               alt='expertise-line'
             />
           </div>
-          <div className='expertise-description'>
+          <div
+            className='expertise-description'
+            data-aos='fade-left'
+            data-aos-offset='10'
+            data-aos-duration='1000'
+          >
             <h1>
               zara's expertise sits at the <br />
               unique and necessary <br />

@@ -5,12 +5,7 @@ import clientsLine from './images/clientsimage.png';
 function Clients() {
   return (
     <>
-      <div
-        className='clients-container'
-        // data-aos='fade-up'
-        // data-aos-offset='200'
-        // data-aos-duration='1000'
-      >
+      <div className='clients-container'>
         <div className='client-image-container'>
           <img
             src={clientsLine}
@@ -18,7 +13,12 @@ function Clients() {
             className='client-line-image'
           />
         </div>
-        <div className='client-list-container'>
+        <div
+          className='client-list-container'
+          data-aos='fade-in'
+          data-aos-offset='200'
+          data-aos-duration='1000'
+        >
           <h3>clients</h3>
           <div className='client-list'>
             <h1 className='previous-clients'>

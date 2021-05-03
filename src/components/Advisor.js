@@ -15,7 +15,12 @@ function Advisor() {
             />
           </div>
           <div className='advior-container'>
-            <h1 className='advisor-description'>
+            <h1
+              className='advisor-description'
+              data-aos='fade-up'
+              data-aos-offset='10'
+              data-aos-duration='1000'
+            >
               zara rahim is a strategic advisor to <br />
               business leaders, startups, artists, <br />
               musicians, brands, media entities, meme- <br />

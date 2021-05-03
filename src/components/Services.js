@@ -5,7 +5,12 @@ function Services() {
   return (
     <>
       <div className='services-container'>
-        <div className='list-of-services'>
+        <div
+          className='list-of-services'
+          data-aos='fade-right'
+          data-aos-offset='10'
+          data-aos-duration='1000'
+        >
           <h4 id='servicesHeader'>services</h4> <br />
           <h1>brand + messaging strategy</h1>
           <br />

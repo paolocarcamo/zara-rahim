@@ -14,7 +14,12 @@ function Testimonial() {
               alt='testimonial-line'
             />
           </div>
-          <div className='quote-container'>
+          <div
+            className='quote-container'
+            data-aos='fade-up'
+            data-aos-offset='10'
+            data-aos-duration='1000'
+          >
             <h1>
               "she wouldn't take no <br />
               for an answer."
