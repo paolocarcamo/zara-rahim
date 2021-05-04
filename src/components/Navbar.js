@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -23,15 +22,13 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#000' }}>
-        <div className={show ? 'navbar show-navbar' : 'navbar hide-navbar'}>
-          <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo'>
-              ZARA RAHIM
-            </Link>
-          </div>
+      <div className={show ? 'navbar show-navbar' : 'navbar hide-navbar'}>
+        <div className='navbar-container container'>
+          <Link to='/' className='navbar-logo'>
+            ZARA RAHIM
+          </Link>
         </div>
-      </IconContext.Provider>
+      </div>
     </>
   );
 }

@@ -15,7 +15,7 @@ function Clients() {
         </div>
         <div
           className='client-list-container'
-          data-aos='fade-in'
+          data-aos='fade-left'
           data-aos-offset='200'
           data-aos-duration='1000'
         >

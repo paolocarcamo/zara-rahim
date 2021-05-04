@@ -28,7 +28,12 @@
   line-height: 0.5;
 }
 
-.contact-text-container:hover {
+.contact-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-link:hover {
   color: #fff;
   transition: ease-in 0.5s;
   cursor: pointer;
