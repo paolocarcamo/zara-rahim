@@ -5,7 +5,12 @@ import { Link } from 'react-router-dom';
 function GetInTouch() {
   return (
     <>
-      <div className='form-content'>
+      <div
+        className='form-content'
+        data-aos='fade-right'
+        data-aos-offset='10'
+        data-aos-duration='1000'
+      >
         <form action=''>
           <div className='form-inputs'>
             <Link to='/' className='home-link'>
