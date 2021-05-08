@@ -1,23 +1,35 @@
-.zara-wrapper {
-  background-color: transparent;
+.zara-section {
+  background-color: rgb(166, 198, 125);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.name {
-  background-color: transparent;
-  text-align: center;
-  font-family: 'gopher' sans-serif;
-  font-size: 83px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 100%;
+.zara-section a {
+  background-color: rgb(166, 198, 125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.name:hover {
-  color: #fff;
-  transition: ease-in 0.5s;
+.landing-logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.landing-logo-wrapper img {
+  width: 50%;
+  background-color: transparent;
+}
+
+.landing-logo-wrapper #transition-landing-logo {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.landing-logo-wrapper:hover #transition-landing-logo {
+  display: inline;
   cursor: pointer;
 }

@@ -34,7 +34,7 @@ span {
 .previous-clients {
   font-family: 'degular', sans-serif;
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 100;
   font-style: normal;
   line-height: 0.6;
 }
@@ -44,7 +44,7 @@ span {
   cursor: pointer;
 }
 
-.hidden-image {
+.hidden-client-image {
   display: none;
   width: 25%;
 }

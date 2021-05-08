@@ -1,40 +1,38 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-end;
   margin-bottom: 100px;
 }
 
 .contact-image-container {
-  padding-top: 30px;
-  padding-right: 405px;
+  margin-top: 30px;
+  margin-right: 400px;
 }
 
 .contact-image {
   width: 50px;
 }
 
-.contact-text-container {
-  padding-top: 50px;
-  padding-right: 360px;
-  text-align: center;
+.get-in-touch-container {
+  position: relative;
+  display: inline-block;
 }
 
-.contact-text-container h1 {
-  font-family: 'degular';
-  font-size: 3rem;
-  text-transform: uppercase;
-  line-height: 0.5;
+.get-in-touch-container img {
+  width: 350px;
+  margin-right: 250px;
 }
 
-.contact-link {
-  text-decoration: none;
-  color: #000;
+.get-in-touch-container .contact-top-image {
+  display: none;
+  position: absolute;
+  z-index: 99;
 }
 
-.contact-link:hover {
-  color: #fff;
-  transition: ease-in 0.5s;
+.get-in-touch-container:hover .contact-top-image {
+  display: inline;
+  position: absolute;
+  left: 0;
   cursor: pointer;
 }

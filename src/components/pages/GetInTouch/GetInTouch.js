@@ -2,6 +2,8 @@ import React from 'react';
 import './GetInTouch.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import zaraimage from '../../images/navbarlogo.png';
+import hoverzaraimage from '../../images/hoverlandingimage.png';
 
 function GetInTouch() {
   const [status, setStatus] = useState('send');
@@ -35,9 +37,16 @@ function GetInTouch() {
         data-aos-duration='1000'
       >
         <form onSubmit={handleSubmit}>
-          <Link to='/' className='home-link'>
-            <h1>ZARA RAHIM</h1>
-          </Link>
+          <div className='logo-container'>
+            <Link to='/' className='home-link'>
+              <img src={zaraimage} alt='zara-logo' />
+              <img
+                src={hoverzaraimage}
+                alt='hover-zara-logo'
+                id='transition-zara-logo'
+              />
+            </Link>
+          </div>
           <div className='form-inputs'>
             <label htmlFor='name' className='form-label' id='name-label'>
               name

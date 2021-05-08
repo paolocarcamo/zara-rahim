@@ -2,6 +2,8 @@ import React from 'react';
 import './Contact.css';
 import contactLine from './images/contactimage.png';
 import { Link } from 'react-router-dom';
+import getintouchimage from './images/getintouch.png';
+import hovergetintouchimage from './images/hovergetintouch.png';
 
 function Contact() {
   return (
@@ -11,15 +13,18 @@ function Contact() {
           <img src={contactLine} alt='contact-line' className='contact-image' />
         </div>
         <div
-          className='contact-text-container'
+          className='get-in-touch-container'
           data-aos='fade-up'
           data-aos-offset='10'
           data-aos-duration='1000'
         >
           <Link to='/get-in-touch' className='contact-link'>
-            <h1>get in</h1>
-            <br />
-            <h1>touch</h1>
+            <img src={getintouchimage} alt='get-in-touch' />
+            <img
+              src={hovergetintouchimage}
+              alt='hover-get-in-touch'
+              className='contact-top-image'
+            />
           </Link>
         </div>
       </div>
