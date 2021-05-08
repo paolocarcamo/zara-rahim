@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function GetInTouch() {
-  const [status, setStatus] = useState('Submit');
+  const [status, setStatus] = useState('send');
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Sending...');
+    setStatus('sending..');
     const { name, email, subject, message } = e.target.elements;
     let details = {
       name: name.value,
@@ -22,7 +22,7 @@ function GetInTouch() {
       },
       body: JSON.stringify(details),
     });
-    setStatus('Submit');
+    setStatus('submitted');
     let result = await response.json();
     alert(result.status);
   };
@@ -69,7 +69,7 @@ function GetInTouch() {
           </div>
           <div className='button-container'>
             <button type='submit' className='form-input-btn'>
-              send
+              {status}
             </button>
           </div>
         </form>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -24,7 +24,7 @@ function Navbar() {
     <>
       <div className={show ? 'navbar show-navbar' : 'navbar hide-navbar'}>
         <div className='navbar-container container'>
-          <Link to='/' className='navbar-logo'>
+          <Link to='zara-wrapper' className='navbar-logo' smooth={true}>
             ZARA RAHIM
           </Link>
         </div>
