@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 100px;
+  margin-right: 45px;
 }
 
 .contact-image-container {
   margin-top: 30px;
-  margin-right: 400px;
+  margin-right: 360px;
 }
 
 .contact-image {
@@ -17,11 +18,11 @@
 .get-in-touch-container {
   position: relative;
   display: inline-block;
+  margin-right: 210px;
 }
 
 .get-in-touch-container img {
   width: 350px;
-  margin-right: 250px;
 }
 
 .get-in-touch-container .contact-top-image {
@@ -35,4 +36,44 @@
   position: absolute;
   left: 0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .contact-container {
+    margin-right: 4px;
+  }
+
+  .contact-image-container {
+    margin-right: 295px;
+  }
+
+  .contact-image-container {
+    margin-top: 70px;
+    margin-right: 135px;
+    margin-left: 0;
+  }
+
+  .get-in-touch-container {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    margin-right: 70px;
+  }
+
+  .client-line-image {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-container {
+    margin-right: 0px;
+  }
+
+  .get-in-touch-container {
+    margin-right: -15px;
+  }
 }

@@ -33,3 +33,9 @@
   display: inline;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .landing-logo-wrapper img {
+    width: 100%;
+  }
+}

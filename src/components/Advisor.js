@@ -14,7 +14,7 @@ function Advisor() {
               alt='advisor-line'
             />
           </div>
-          <div className='advior-container'>
+          <div className='description-container'>
             <h1
               className='advisor-description'
               data-aos='fade-up'

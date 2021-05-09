@@ -8,50 +8,64 @@
 
 .expertise-image-container {
   margin-top: 120px;
-  margin-right: -40px;
+  margin-left: 150px;
 }
 
 .expertise-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .expertise-description {
-  margin-right: 70px;
+  margin-bottom: 80px;
 }
 
 .expertise-container h1 {
   font-family: 'degular', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 100;
   line-height: 1.3;
 }
 
 @media screen and (max-width: 991px) {
-  .testimonial-container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  .quoted-text {
-    font-size: 50px;
+  .expertise-image {
+    width: 170px;
   }
 
-  .quoteImg {
-    width: 40px;
+  .expertise-description {
+    margin-right: -160px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .quote-wrapper {
-    padding-bottom: 65px;
+  .expertise-container {
+    flex-direction: column-reverse;
   }
 
-  .testimonial-container {
-    max-width: 100%;
-    flex-basis: auto;
+  .expertise-image-container {
+    margin-top: 0;
+    margin-left: 100px;
+  }
+
+  .expertise-container h1 {
+    text-align: right;
+  }
+
+  .expertise-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 120px;
+  }
+
+  .expertise-description {
+    margin-bottom: 10px;
+  }
+
+  .expertise-container h1 {
+    font-size: 1.5rem;
   }
 }

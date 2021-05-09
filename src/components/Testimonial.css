@@ -39,26 +39,24 @@
 }
 
 @media screen and (max-width: 991px) {
-  .testimonial-container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  .quoted-text {
-    font-size: 50px;
-  }
-
-  .quoteImg {
-    width: 40px;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .quote-wrapper {
-    padding-bottom: 65px;
+  .testimonial-container {
+    flex-direction: flex-start;
+    padding-left: 0;
+    padding-bottom: 20px;
   }
 
-  .testimonial-container {
-    max-width: 100%;
-    flex-basis: auto;
+  .testimonial-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-container p {
+    font-size: 1rem;
+  }
+
+  .testimonial-image {
+    width: 210px;
   }
 }
