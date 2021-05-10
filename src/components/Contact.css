@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 980px) {
   .contact-container {
-    margin-right: 4px;
+    margin-right: 150px;
   }
 
   .contact-image-container {
@@ -54,7 +54,7 @@
   }
 
   .get-in-touch-container {
-    margin-right: 0px;
+    margin-right: -10px;
   }
 }
 

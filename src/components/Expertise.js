@@ -21,8 +21,8 @@ function Expertise() {
             data-aos-duration='1000'
           >
             <h1>
-              zara's expertise sits at the <br />
-              unique and necessary <br />
+              zara's expertise sits at <br />
+              the unique and necessary <br />
               intersection of social <br />
               impact, culture, digital <br />
               media, and policy.
