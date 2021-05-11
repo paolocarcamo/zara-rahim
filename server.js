@@ -10,11 +10,14 @@ app.use(express.json());
 app.use('/', router);
 app.listen(5000, () => console.log('Server Running'));
 
+const username = process.env.GMAIL_USERNAME;
+const password = process.env.GMAIL_PASSWORD;
+
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.GMAIL_USERNAME,
-    pass: process.env.GMAIL_PASSWORD,
+    user: username,
+    pass: password,
   },
 });
 
@@ -36,7 +39,7 @@ router.post('/contact', (req, res) => {
     to: 'heyitspaolo@gmail.com',
     subject: 'Contact Form Submission',
     html: `<h1>${name}</h1>
-           <p>${email}</p>
+           <h2>${email}</h2>
            <h3>${subject}</h3>
            <p>${message}</p>`,
   };

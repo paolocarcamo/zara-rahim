@@ -115,6 +115,10 @@
     border: 1px solid #000;
   }
 
+  .logo-container {
+    padding-bottom: 0;
+  }
+
   .button-container {
     padding-left: 250px;
   }
