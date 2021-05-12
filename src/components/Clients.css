@@ -50,48 +50,18 @@ span {
 
 .hidden-client-image {
   display: none;
-  width: 25%;
+  width: 30%;
 }
 
-#obama:hover + img {
+#obama:hover + img,
+#hillary:hover + img,
+#a-two-four:hover + img,
+#vogue:hover + img,
+#uber:hover + img {
   display: flex;
   position: fixed;
   top: 30%;
-  left: 17%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#obama {
-  background-color: transparent;
-}
-
-#hillary:hover + img {
-  display: flex;
-  position: fixed;
-  top: 30%;
-  left: 17%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#white-house:hover + img {
-  display: flex;
-  position: fixed;
-  top: 30%;
-  left: 17%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#a-two-four:hover + img {
-  display: flex;
-  position: fixed;
-  top: 30%;
-  left: 17%;
+  left: 15%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -100,8 +70,9 @@ span {
 #mariah:hover + img {
   display: flex;
   position: fixed;
-  top: 30%;
-  left: 17%;
+  width: 25%;
+  top: 22%;
+  left: 20%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -110,8 +81,9 @@ span {
 #netflix:hover + img {
   display: flex;
   position: fixed;
+  width: 40%;
   top: 30%;
-  left: 17%;
+  left: 5%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -120,18 +92,9 @@ span {
 #vogue:hover + img {
   display: flex;
   position: fixed;
-  top: 30%;
-  left: 17%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#uber:hover + img {
-  display: flex;
-  position: fixed;
-  top: 30%;
-  left: 17%;
+  width: 25%;
+  top: 23%;
+  left: 20%;
   flex-direction: column;
   align-items: center;
   justify-content: center;

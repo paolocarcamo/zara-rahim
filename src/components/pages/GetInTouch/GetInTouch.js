@@ -3,7 +3,7 @@ import './GetInTouch.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import zaraimage from '../../images/navbarlogo.png';
-import hoverzaraimage from '../../images/hoverlandingimage.png';
+import hoverzaraimage from '../../images/hovergetintouchimage.png';
 
 function GetInTouch() {
   const [status, setStatus] = useState('send');
