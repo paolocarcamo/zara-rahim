@@ -60,13 +60,19 @@
 }
 
 .form-input {
+  font-family: 'degular-display';
+  font-size: 1rem;
   margin-bottom: 10px;
+  padding-left: 5px;
   height: 30px;
   width: 450px;
   border: 1px solid #000;
 }
 
 .textbox-input {
+  font-family: 'degular-display';
+  font-size: 1rem;
+  padding-left: 5px;
   width: 450px;
 }
 
@@ -83,6 +89,7 @@
 }
 
 #text-box {
+  font-family: 'degular-display';
   display: flex;
   justify-content: center;
 }
@@ -126,6 +133,7 @@
   }
 
   .textbox-input {
+    font-family: 'degular-display';
     width: 300px;
   }
 }
