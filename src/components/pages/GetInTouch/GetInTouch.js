@@ -32,12 +32,7 @@ function GetInTouch() {
   };
   return (
     <>
-      <div
-        className='form-content'
-        data-aos='fade-right'
-        data-aos-offset='10'
-        data-aos-duration='1000'
-      >
+      <div className='form-content'>
         <form onSubmit={handleSubmit}>
           <div className='logo-container'>
             <Link to='/' className='home-link'>
@@ -49,7 +44,12 @@ function GetInTouch() {
               />
             </Link>
           </div>
-          <div className='inputs-container'>
+          <div
+            className='inputs-container'
+            data-aos='fade-right'
+            data-aos-offset='10'
+            data-aos-duration='1000'
+          >
             <div className='form-inputs'>
               <label htmlFor='name' className='form-label' id='name-label'>
                 name

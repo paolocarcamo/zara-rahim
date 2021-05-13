@@ -48,7 +48,7 @@
 
   .expertise-image-container {
     margin-top: 0;
-    margin-left: 100px;
+    margin-left: 5px;
   }
 
   .expertise-container h1 {
@@ -58,7 +58,7 @@
   .expertise-container {
     display: flex;
     flex-direction: column-reverse;
-    padding-right: 120px;
+    padding-right: 80px;
   }
 
   .expertise-description {
@@ -66,6 +66,6 @@
   }
 
   .expertise-container h1 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }

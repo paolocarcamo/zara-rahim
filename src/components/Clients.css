@@ -28,23 +28,21 @@ span {
 }
 
 .clients-container h3 {
-  font-family: 'degular', sans-serif;
-  padding-bottom: 30px;
+  font-family: 'degular-thin', sans-serif;
+  padding-bottom: 15px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-weight: 100;
 }
 
 .previous-clients {
-  font-family: 'degular', sans-serif;
+  font-family: 'degular-display', sans-serif;
   font-size: 2rem;
   font-weight: 100;
-  font-style: normal;
   line-height: 0.6;
 }
 
 .previous-clients:hover {
-  color: #fff;
   cursor: pointer;
 }
 
@@ -125,15 +123,17 @@ span {
   }
 
   .client-line-image {
-    padding-top: 30px;
-    padding-left: 30px;
+    margin-right: 20px;
+    padding-left: 0;
     padding-bottom: 420px;
-    width: 150px;
+    width: 160px;
   }
 
   .client-list-container {
-    padding-top: 50px;
-    padding-right: 70px;
+    padding-top: 0;
+    padding-right: 50px;
+    padding-left: 0;
+    padding-bottom: 50px;
     text-align: center;
   }
 

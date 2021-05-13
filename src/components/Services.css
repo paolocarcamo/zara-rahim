@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 768px) {
   .services-container {
+    width: 270px;
     padding-left: 30px;
   }
 
@@ -41,6 +42,7 @@
   }
 
   .list-of-services h4 {
-    font-size: 0.9rem;
+    line-height: 1.2;
+    font-size: 1rem;
   }
 }
