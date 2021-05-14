@@ -23,6 +23,10 @@ span {
   text-align: center;
 }
 
+.client-list {
+  line-height: 0.8;
+}
+
 .client-list h1 {
   font-weight: 100;
 }
@@ -39,7 +43,6 @@ span {
   font-family: 'degular', sans-serif;
   font-size: 45px;
   font-weight: 100;
-  line-height: 0.6;
 }
 
 .previous-clients:hover {
@@ -52,7 +55,7 @@ span {
 }
 
 #obama:hover + img,
-#hillary:hover + img,
+#hillary-span:hover + img,
 #a-two-four:hover + img,
 #vogue:hover + img {
   display: flex;
@@ -125,7 +128,7 @@ span {
   }
 
   #obama:hover + img,
-  #hillary:hover + img,
+  #hillary-span:hover + img,
   #white-house:hover + img,
   #a-two-four:hover + img,
   #mariah:hover + img,
@@ -142,6 +145,14 @@ span {
     margin-bottom: -40px;
   }
 
+  .client-list {
+    width: 200px;
+  }
+
+  #hillary {
+    line-height: 25px;
+  }
+
   .client-line-image {
     margin-top: 20px;
     margin-right: 20px;
@@ -155,10 +166,12 @@ span {
     padding-right: 50px;
     padding-left: 0;
     text-align: center;
+    line-height: 1.2;
   }
 
   .clients-container h3 {
     font-size: 1rem;
+    background-color: transparent;
   }
 
   .previous-clients {
@@ -167,7 +180,7 @@ span {
   }
 
   #obama:hover + img,
-  #hillary:hover + img,
+  #hillary-span:hover + img,
   #white-house:hover + img,
   #a-two-four:hover + img,
   #mariah:hover + img,
