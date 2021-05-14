@@ -143,6 +143,7 @@ span {
   }
 
   .client-line-image {
+    margin-top: 20px;
     margin-right: 20px;
     padding-left: 0;
     padding-bottom: 420px;
@@ -153,7 +154,6 @@ span {
     padding-top: 0;
     padding-right: 50px;
     padding-left: 0;
-    padding-bottom: 50px;
     text-align: center;
   }
 
@@ -181,11 +181,5 @@ span {
   .previous-clients:hover {
     color: #000;
     cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .client-list-container {
-    padding-right: 100px;
   }
 }
