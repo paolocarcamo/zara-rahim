@@ -10,7 +10,7 @@
   font-family: 'degular', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1.2;
 }
@@ -26,8 +26,10 @@
 
 @media screen and (max-width: 768px) {
   .advisor-description {
+    position: relative;
+    z-index: 99;
     word-wrap: break-word;
-    padding-left: 20px;
+    padding-left: 30px;
     text-align: left;
     font-size: 1.1rem;
     width: 400px;
@@ -36,7 +38,7 @@
   .advisor-image {
     width: 160px;
     margin-top: 60px;
-    margin-left: -80px;
+    margin-left: -160px;
     transform: rotate(20deg);
   }
 }

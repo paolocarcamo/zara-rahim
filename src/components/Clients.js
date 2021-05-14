@@ -94,3 +94,15 @@ function Clients() {
 }
 
 export default Clients;
+
+// Remove last three client picture
+// New A24 picture
+// Smaller size for first two paragraphs (40px)
+// Tighter line height
+// Match Client heading to Services
+// Client list font weight
+// Remove form transition
+// Decrease form logo size to match main page
+// Look at page on iPhone to fix styling
+// Most traffic on mobile
+// Fix form label weights

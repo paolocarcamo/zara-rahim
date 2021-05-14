@@ -7,7 +7,7 @@
 }
 
 .contact-image-container {
-  margin-top: -10px;
+  margin-top: 10px;
   margin-right: 380px;
   margin-bottom: -30px;
 }
@@ -70,19 +70,20 @@
 
 @media screen and (max-width: 550px) {
   .client-list-container {
-    padding-right: 30px;
+    padding-right: 0px;
+    margin-left: -60px;
   }
 
   .contact-image {
     margin-top: -10px;
-    margin-right: 40px;
+    margin-left: -60px;
     height: 120px;
     width: 20px;
   }
 
   .contact-container {
     margin-top: -230px;
-    margin-right: -20px;
+    margin-left: 450px;
   }
 
   .get-in-touch-container {

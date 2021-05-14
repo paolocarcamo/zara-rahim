@@ -28,16 +28,16 @@ span {
 }
 
 .clients-container h3 {
-  font-family: 'degular-thin', sans-serif;
+  font-family: 'degular', sans-serif;
   padding-bottom: 15px;
   text-align: center;
-  font-size: 0.8rem;
-  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .previous-clients {
-  font-family: 'degular-display', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'degular', sans-serif;
+  font-size: 45px;
   font-weight: 100;
   line-height: 0.6;
 }
@@ -143,7 +143,7 @@ span {
 
   .previous-clients {
     font-size: 1.5rem;
-    line-height: 1;
+    line-height: 0.6;
   }
 
   #obama:hover + img,
@@ -161,5 +161,11 @@ span {
   .previous-clients:hover {
     color: #000;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client-list-container {
+    padding-right: 100px;
   }
 }

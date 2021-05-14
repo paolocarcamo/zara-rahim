@@ -19,14 +19,15 @@
 }
 
 .expertise-description {
-  margin-bottom: 80px;
+  margin-bottom: 160px;
+  margin-right: 200px;
 }
 
 .expertise-container h1 {
   font-family: 'degular', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1.3;
 }
