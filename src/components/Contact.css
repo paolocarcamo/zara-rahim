@@ -92,4 +92,8 @@
   .get-in-touch-container img {
     width: 280px;
   }
+
+  .get-in-touch-container:hover .contact-top-image {
+    display: none;
+  }
 }
