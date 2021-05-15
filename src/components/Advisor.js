@@ -26,7 +26,7 @@ function Advisor() {
               leaders, startups,{' '}
               <span className='advisor-desktop-break'>artists,</span> musicians,
               brands, media entities,{' '}
-              <span className='advisor-desktop-break'>meme-</span> lords,
+              <span className='advisor-desktop-break'>meme-</span>lords,
               comedians, accidental{' '}
               <span className='advisor-desktop-break'>villans,</span> heroes,
               and friends.
