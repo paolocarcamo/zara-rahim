@@ -18,6 +18,7 @@ span {
 }
 
 .client-list-container {
+  background-color: transparent;
   padding-top: 120px;
   padding-left: 50px;
   text-align: center;

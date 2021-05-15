@@ -16,7 +16,7 @@ function Expertise() {
           </div>
           <div
             className='expertise-description'
-            data-aos='fade-left'
+            data-aos='fade-right'
             data-aos-offset='40'
             data-aos-duration='1000'
           >

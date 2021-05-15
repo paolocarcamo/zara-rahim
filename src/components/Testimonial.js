@@ -21,8 +21,11 @@ function Testimonial() {
             data-aos-duration='1000'
           >
             <h1>
-              "she wouldn't take no <br />
-              for an answer."
+              "she <span className='testimonial-mobile-break'>wouldn't</span>{' '}
+              take
+              <span className='testimonial-desktop-break'> no</span> for{' '}
+              <span className='testimonial-mobile-break'>an</span>
+              answer."
             </h1>
             <br />
             <p>- fran lebowitz</p>

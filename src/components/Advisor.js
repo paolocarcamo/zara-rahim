@@ -21,11 +21,15 @@ function Advisor() {
               data-aos-offset='10'
               data-aos-duration='1000'
             >
-              zara rahim is a strategic advisor to <br />
-              business leaders, startups, artists, <br />
-              musicians, brands, media entities, meme- <br />
-              lords, comedians, accidental villans, <br />
-              heroes, and friends.
+              zara rahim is a strategic advisor{' '}
+              <span className='advisor-desktop-break'>to</span> business
+              leaders, startups,{' '}
+              <span className='advisor-desktop-break'>artists,</span> musicians,
+              brands, media entities,{' '}
+              <span className='advisor-desktop-break'>meme-</span> lords,
+              comedians, accidental{' '}
+              <span className='advisor-desktop-break'>villans,</span> heroes,
+              and friends.
             </h1>
           </div>
         </div>

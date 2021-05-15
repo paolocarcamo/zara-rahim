@@ -7,7 +7,7 @@ function Navbar() {
   const [show, setShow] = useState(false);
 
   const showNavbar = () => {
-    if (window.scrollY > 650) {
+    if (window.scrollY > 540) {
       setShow(true);
     } else {
       setShow(false);

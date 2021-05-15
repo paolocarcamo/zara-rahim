@@ -1,14 +1,14 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 100px;
   margin-right: 45px;
 }
 
 .contact-image-container {
   margin-top: 10px;
-  margin-right: 380px;
+  margin-left: 780px;
   margin-bottom: -30px;
 }
 
@@ -19,9 +19,7 @@
 }
 
 .get-in-touch-container {
-  position: relative;
-  display: inline-block;
-  margin-right: 210px;
+  margin-left: 615px;
 }
 
 .get-in-touch-container img {
@@ -38,22 +36,22 @@
 .get-in-touch-container:hover .contact-top-image {
   display: inline;
   position: absolute;
-  left: 0;
+  left: 615px;
   cursor: pointer;
 }
 
 @media screen and (max-width: 980px) {
   .contact-container {
-    margin-right: 150px;
+    margin-left: 150px;
   }
 
   .contact-image-container {
-    margin-right: 295px;
+    margin-left: 295px;
   }
 
   .contact-image-container {
     margin-top: 70px;
-    margin-right: 135px;
+    margin-left: 135px;
     margin-left: 0;
   }
 
@@ -76,18 +74,22 @@
 
   .contact-image {
     margin-top: -15px;
-    margin-left: -55px;
+    margin-left: 160px;
     height: 120px;
     width: 20px;
   }
 
   .contact-container {
     margin-top: -230px;
-    margin-left: 450px;
+    margin-left: 100px;
   }
 
   .get-in-touch-container {
     background-color: transparent;
-    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+  .get-in-touch-container img {
+    width: 280px;
   }
 }

@@ -1,5 +1,4 @@
 .form-content {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,7 +15,6 @@
 }
 
 .logo-container img {
-  padding-left: 10px;
   width: 530px;
   background-color: transparent;
 }
@@ -96,8 +94,8 @@
 
 .button-container {
   display: flex;
-  justify-content: center;
-  padding-left: 430px;
+  justify-content: flex-start;
+  padding-left: 570px;
 }
 
 .form-input-btn {
@@ -109,7 +107,6 @@
 
 .form-input-btn:hover {
   text-decoration: underline;
-  transition: ease-in 0.5s;
   cursor: pointer;
 }
 
@@ -125,7 +122,13 @@
   }
 
   .logo-container {
+    width: 400px;
     padding-bottom: 0;
+  }
+
+  .logo-container img {
+    padding-top: 10px;
+    width: 400px;
   }
 
   .button-container {
