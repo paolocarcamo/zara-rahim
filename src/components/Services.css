@@ -25,9 +25,15 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 1024px) {
+  .list-of-services {
+    padding-left: 70px;
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .list-of-services {
-    padding-left: 220px;
+    padding-left: 230px;
   }
 }
 

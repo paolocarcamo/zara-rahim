@@ -58,6 +58,24 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    margin-left: 80px;
+  }
+
+  .contact-image-container {
+    margin-left: 123px;
+  }
+
+  .contact-image {
+    margin-left: 480px;
+  }
+
+  .get-in-touch-container {
+    margin-left: 440px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact-container {
     margin-right: 70px;
