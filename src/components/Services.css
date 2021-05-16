@@ -18,13 +18,17 @@
 .list-of-services h4 {
   font-family: 'degular', sans-serif;
   font-weight: 100;
+  font-size: 1.2rem;
 }
 
 #servicesHeader {
   font-weight: 500;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1366px) {
+  .list-of-services {
+    padding-left: 220px;
+  }
 }
 
 @media screen and (max-width: 768px) {

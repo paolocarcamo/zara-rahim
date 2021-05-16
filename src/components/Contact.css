@@ -40,19 +40,17 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1366px) {
   .contact-container {
-    margin-left: 150px;
+    margin-left: 80px;
   }
 
   .contact-image-container {
     margin-left: 295px;
   }
 
-  .contact-image-container {
-    margin-top: 70px;
-    margin-left: 135px;
-    margin-left: 0;
+  .contact-image {
+    margin-left: 480px;
   }
 
   .get-in-touch-container {

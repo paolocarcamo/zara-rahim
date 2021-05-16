@@ -86,6 +86,10 @@
   margin-left: 5px;
 }
 
+.inputs-container {
+  padding-right: 90px;
+}
+
 #text-box {
   font-family: 'degular-display';
   display: flex;
@@ -95,7 +99,7 @@
 .button-container {
   display: flex;
   justify-content: flex-start;
-  padding-left: 570px;
+  padding-left: 520px;
 }
 
 .form-input-btn {
@@ -133,6 +137,10 @@
 
   .button-container {
     padding-left: 270px;
+  }
+
+  .inputs-container {
+    padding-right: 0;
   }
 
   .textbox-input {

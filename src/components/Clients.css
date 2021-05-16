@@ -36,7 +36,7 @@ span {
   font-family: 'degular', sans-serif;
   padding-bottom: 15px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -120,6 +120,15 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#and-more {
+  font-family: 'degular-medium', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 10px;
+  font-style: italic;
 }
 
 @media screen and (max-width: 991px) {
