@@ -69,6 +69,15 @@ function Clients() {
             </h1>
             <br />
             <h1 className='previous-clients'>
+              <span id='netflix'>slow factory</span>
+              <img
+                src={netflixpicture}
+                alt=''
+                className='hidden-client-image'
+              />
+            </h1>
+            <br />
+            <h1 className='previous-clients'>
               <span id='vogue'>vogue magazine</span>
               <img
                 src='https://assets.vogue.com/photos/593ef4c38ba2821cdbcb8fc8/master/w_2207,h_3000,c_limit/08-zendaya-coleman-vogue-july-2017.jpg'

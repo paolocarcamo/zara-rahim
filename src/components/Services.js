@@ -11,26 +11,30 @@ function Services() {
           data-aos-offset='10'
           data-aos-duration='1000'
         >
-          <h4 id='servicesHeader'>services</h4> <br />
+          <h4 id='services-header'>services</h4> <br />
           <h1>brand + messaging strategy</h1>
           <br />
-          <h4>take project from an idea to an action plan</h4>
+          <h4>
+            bring direction and clarity to a{' '}
+            <span className='services-desktop-break'>project </span>amidst
+            uncertainty and ambiguity
+          </h4>
           <br />
-          <h1>communication development</h1>
+          <h1>communications development</h1>
           <br />
-          <h4>craft the public facing story in media</h4>
+          <h4>craft the story and tell it to the world</h4>
           <br />
           <h1>partnerships + collaborations</h1>
           <br />
-          <h4>make connections that get projects into culture</h4>
+          <h4>foster connections that just make sense</h4>
           <br />
           <h1>policy + advocacy</h1>
           <br />
-          <h4>political and social good campaign planning</h4>
+          <h4>create and enrich concepts that have real impact</h4>
           <br />
           <h1>scenario planning</h1>
           <br />
-          <h4>crisis management</h4>
+          <h4>crisis management and tentpole moments</h4>
         </div>
       </div>
     </>

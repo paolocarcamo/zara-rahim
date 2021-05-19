@@ -42,6 +42,7 @@
     width: 100%;
   }
   .landing-logo-wrapper:hover #transition-landing-logo {
+    width: 570px;
     display: none;
     cursor: pointer;
   }

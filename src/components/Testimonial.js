@@ -22,10 +22,9 @@ function Testimonial() {
           >
             <h1>
               "she <span className='testimonial-mobile-break'>wouldn't</span>{' '}
-              take
+              take{''}
               <span className='testimonial-desktop-break'> no</span> for{' '}
-              <span className='testimonial-mobile-break'>an</span>
-              answer."
+              <span className='testimonial-mobile-break'>an</span> answer."
             </h1>
             <br />
             <p>- fran lebowitz</p>

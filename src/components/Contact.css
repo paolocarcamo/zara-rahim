@@ -8,7 +8,7 @@
 
 .contact-image-container {
   margin-top: 10px;
-  margin-left: 780px;
+  margin-left: 880px;
   margin-bottom: -30px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .get-in-touch-container {
-  margin-left: 615px;
+  margin-left: 710px;
 }
 
 .get-in-touch-container img {
@@ -36,73 +36,54 @@
 .get-in-touch-container:hover .contact-top-image {
   display: inline;
   position: absolute;
-  left: 615px;
+  left: 710px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 1366px) {
-  .contact-container {
-    margin-left: 80px;
-  }
-
+@media screen and (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
   .contact-image-container {
-    margin-left: 295px;
-  }
-
-  .contact-image {
-    margin-left: 480px;
+    margin-left: 950px;
   }
 
   .get-in-touch-container {
-    margin-right: -10px;
+    margin-left: 780px;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .contact-container {
-    margin-left: 80px;
-  }
-
+@media screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
   .contact-image-container {
-    margin-left: 123px;
-  }
-
-  .contact-image {
-    margin-left: 480px;
+    margin-left: 720px;
   }
 
   .get-in-touch-container {
-    margin-left: 440px;
+    margin-left: 540px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .contact-container {
-    margin-right: 70px;
-  }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 414px) {
   .client-list-container {
     padding-right: 0px;
     margin-left: -60px;
   }
 
+  .contact-image-container {
+    margin-left: 20px;
+  }
+
   .contact-image {
-    margin-top: -15px;
+    margin-top: 10px;
     margin-left: 160px;
-    height: 120px;
-    width: 20px;
+    height: 90px;
   }
 
   .contact-container {
-    margin-top: -230px;
-    margin-left: 100px;
+    margin-top: -190px;
+    margin-left: 90px;
   }
 
   .get-in-touch-container {
     background-color: transparent;
-    margin-left: 30px;
+    margin-left: 40px;
   }
 
   .get-in-touch-container img {

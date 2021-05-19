@@ -11,8 +11,9 @@
   font-family: 'degular', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 100;
+  margin-right: -5px;
   line-height: 1.2;
 }
 
@@ -22,30 +23,34 @@
 }
 
 .advisor-image {
-  width: 310px;
+  background-color: transparent;
+  width: 300px;
   margin-top: -50px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
-@media screen and (max-width: 991px) {
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
   .advisor-description {
-    background-color: transparent;
-    position: relative;
-    z-index: 99;
-    word-wrap: break-word;
-    padding-left: 20px;
-    text-align: left;
-    font-size: 1.1rem;
-    width: 250px;
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .advisor-image {
+    margin-top: 160px;
+    margin-left: -60px;
+    width: 140px;
+    transform: rotate(15deg);
   }
 
-  .advisor-image {
-    width: 160px;
-    margin-top: 60px;
-    margin-left: -30px;
+  .advisor-description {
+    font-size: 1.2rem;
+    width: 290px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: -10px;
+    padding-left: 0;
+    padding-right: 5px;
   }
 
   .advisor-desktop-break::after {

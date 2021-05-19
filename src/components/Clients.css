@@ -3,6 +3,7 @@ span {
 }
 
 .clients-container {
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,9 +13,10 @@ span {
 }
 
 .client-line-image {
-  padding-left: 45px;
+  background-color: transparent;
+  margin-left: 250px;
   padding-bottom: 150px;
-  width: 300px;
+  width: 230px;
 }
 
 .client-list-container {
@@ -25,6 +27,7 @@ span {
 }
 
 .client-list {
+  background-color: transparent;
   line-height: 0.8;
 }
 
@@ -34,7 +37,7 @@ span {
 
 .clients-container h3 {
   font-family: 'degular', sans-serif;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
@@ -127,11 +130,20 @@ span {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
-  padding-top: 10px;
+  padding-top: 15px;
   font-style: italic;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  .client-line-image {
+    background-color: transparent;
+    margin-left: 180px;
+  }
+
+  .client-list-container {
+    padding-left: 0;
+  }
+
   .previous-clients:hover {
     color: #000;
     cursor: pointer;
@@ -150,7 +162,7 @@ span {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .clients-container {
     margin-bottom: -40px;
   }
@@ -160,18 +172,19 @@ span {
   }
 
   #hillary {
-    line-height: 25px;
+    line-height: 20px;
   }
 
   .client-line-image {
     margin-top: 20px;
-    margin-right: 20px;
-    padding-left: 0;
+    margin-right: 70px;
+    margin-left: 0px;
     padding-bottom: 420px;
-    width: 160px;
+    width: 110px;
   }
 
   .client-list-container {
+    margin-top: -100px;
     padding-top: 0;
     padding-right: 50px;
     padding-left: 0;
@@ -185,8 +198,8 @@ span {
   }
 
   .previous-clients {
-    font-size: 1.5rem;
-    line-height: 0.6;
+    font-size: 1.6rem;
+    line-height: 0.8;
   }
 
   #obama:hover + img,
