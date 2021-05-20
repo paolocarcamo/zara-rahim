@@ -47,6 +47,32 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .services-container {
+    width: 270px;
+    padding-left: 15px;
+  }
+
+  .list-of-services {
+    padding-left: 10px;
+  }
+
+  .list-of-services h1 {
+    font-size: 1.5rem;
+    margin-bottom: -5px;
+  }
+
+  .list-of-services h4 {
+    line-height: 1.3;
+    font-size: 1rem;
+  }
+
+  .services-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .services-container {
     width: 270px;

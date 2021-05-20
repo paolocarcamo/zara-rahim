@@ -24,7 +24,7 @@ function Clients() {
           data-aos-offset='200'
           data-aos-duration='1000'
         >
-          <h3>clients</h3>
+          <h3>work</h3>
           <div className='client-list'>
             <h1 className='previous-clients'>
               <span id='obama'>barack obama</span>

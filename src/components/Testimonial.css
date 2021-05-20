@@ -70,6 +70,34 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .testimonial-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+
+  .testimonial-mobile-break::after {
+    content: '\a';
+    white-space: pre;
+  }
+
+  .quote-container {
+    margin-top: -55px;
+    margin-right: 0;
+    background-color: rgb(237, 165, 72);
+  }
+
+  .quote-container h1 {
+    font-size: 2rem;
+  }
+
+  .testimonial-image {
+    margin-bottom: 0;
+    margin-right: -40px;
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .testimonial-desktop-break::after {
     content: none;

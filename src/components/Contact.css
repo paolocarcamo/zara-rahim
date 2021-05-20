@@ -60,6 +60,41 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .client-list-container {
+    padding-right: 0px;
+    margin-left: -60px;
+  }
+
+  .contact-image-container {
+    margin-left: 20px;
+  }
+
+  .contact-image {
+    margin-top: 10px;
+    margin-left: 160px;
+    height: 90px;
+  }
+
+  .contact-container {
+    margin-top: -190px;
+    margin-left: 90px;
+  }
+
+  .get-in-touch-container {
+    background-color: transparent;
+    margin-left: 40px;
+  }
+
+  .get-in-touch-container img {
+    width: 280px;
+  }
+
+  .get-in-touch-container:hover .contact-top-image {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .client-list-container {
     padding-right: 0px;

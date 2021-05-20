@@ -35,6 +35,30 @@
   }
 }
 
+@media screen and (max-width: 428px) {
+  .advisor-image {
+    margin-top: 160px;
+    margin-left: -60px;
+    width: 140px;
+    transform: rotate(15deg);
+  }
+
+  .advisor-description {
+    font-size: 1.2rem;
+    width: 290px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: -10px;
+    padding-left: 0;
+    padding-right: 5px;
+  }
+
+  .advisor-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .advisor-image {
     margin-top: 160px;

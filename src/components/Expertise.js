@@ -21,11 +21,23 @@ function Expertise() {
             data-aos-duration='1000'
           >
             <h1>
-              zara's expertise sits at <br />
-              the unique and necessary <br />
-              intersection of social <br />
-              impact, culture, digital <br />
-              media, and policy.
+              zara's expertise sits at{' '}
+              <span className='expertise-mobile-break'>the</span> unique{' '}
+              <span className='expertise-desktop-break'>and</span> necessary{' '}
+              <span className='expertise-mobile-break'>intersection</span> of
+              social <span className='expertise-desktop-break'>impact,</span>{' '}
+              culture, <span className='expertise-mobile-break'>digital</span>{' '}
+              media, and{' '}
+              <span className='expertise-desktop-break'>policy.</span> She
+              aspires to <span className='expertise-mobile-break'>help</span>{' '}
+              tell stories that{' '}
+              <span className='expertise-desktop-break'>deserve</span> to{' '}
+              <span className='expertise-mobile-break'>be</span> heard, shape
+              how they’re{' '}
+              <span className='expertise-desktop-break'>
+                <span className='expertise-mobile-break'>told,</span>
+              </span>{' '}
+              and how they’re carried.
             </h1>
           </div>
         </div>
