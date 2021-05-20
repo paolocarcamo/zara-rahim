@@ -29,7 +29,7 @@ function Advisor() {
               <span className='advisor-desktop-break'>internet</span>{' '}
               personalities, meme-lords,{' '}
               <span className='advisor-desktop-break'>comedians,</span>{' '}
-              accidental villans, aspiring{' '}
+              accidental villains, aspiring{' '}
               <span className='advisor-desktop-break'>heroes,</span> underdogs,
               and friends.
             </h1>
