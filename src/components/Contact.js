@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import contactimage from './images/contactimage.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import getintouchimage from './images/getintouch.png';
 import hovergetintouchimage from './images/hovergetintouch.png';
 
@@ -22,14 +22,16 @@ function Contact() {
           data-aos-offset='10'
           data-aos-duration='1000'
         >
-          <Link to='/get-in-touch' className='contact-link'>
+          {/* <Link to='/get-in-touch' className='contact-link'> */}
+          <a href='mailto:hello@zararahim.com '>
             <img src={getintouchimage} alt='get-in-touch' />
             <img
               src={hovergetintouchimage}
               alt='hover-get-in-touch'
               className='contact-top-image'
             />
-          </Link>
+          </a>
+          {/* </Link> */}
         </div>
       </div>
     </>
