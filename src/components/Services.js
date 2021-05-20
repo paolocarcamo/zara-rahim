@@ -12,14 +12,6 @@ function Services() {
           data-aos-duration='1000'
         >
           <h4 id='services-header'>services</h4> <br />
-          <h1>brand + messaging strategy</h1>
-          <br />
-          <h4>
-            bring direction and clarity to a{' '}
-            <span className='services-desktop-break'>project </span>amidst
-            uncertainty and ambiguity
-          </h4>
-          <br />
           <h1>communications development</h1>
           <br />
           <h4>craft the story and tell it to the world</h4>
