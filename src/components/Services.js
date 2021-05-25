@@ -18,7 +18,7 @@ function Services() {
           <br />
           <h1>partnerships + collaborations</h1>
           <br />
-          <h4>foster connections that just make sense</h4>
+          <h4>foster connections that make sense</h4>
           <br />
           <h1>policy + advocacy</h1>
           <br />

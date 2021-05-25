@@ -22,15 +22,18 @@ function Expertise() {
           >
             <h1>
               zara's expertise sits at{' '}
-              <span className='expertise-mobile-break'>the</span> unique{' '}
-              <span className='expertise-desktop-break'>and</span> necessary{' '}
-              <span className='expertise-mobile-break'>intersection</span> of
-              social <span className='expertise-desktop-break'>impact,</span>{' '}
-              culture, <span className='expertise-mobile-break'>digital</span>{' '}
-              media, and{' '}
-              <span className='expertise-desktop-break'>policy.</span> She
-              aspires to <span className='expertise-mobile-break'>help</span>{' '}
-              tell stories that{' '}
+              <span className='expertise-mobile-break'>the</span>
+              <span className='expertise-desktop-break'> unique </span>
+              intersection of{' '}
+              <span className='expertise-mobile-break'>
+                social
+              </span> impact,{' '}
+              <span className='expertise-desktop-break'>culture,</span> media,{' '}
+              <span className='expertise-mobile-break'>entertainment,</span>{' '}
+              communications, and{' '}
+              <span className='expertise-desktop-break'>policy.</span> She{' '}
+              <span className='expertise-mobile-break'>aspires</span> to elevate{' '}
+              stories that{' '}
               <span className='expertise-desktop-break'>deserve</span> to{' '}
               <span className='expertise-mobile-break'>be</span> heard, shape
               how they’re{' '}

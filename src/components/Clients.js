@@ -27,7 +27,7 @@ function Clients() {
           <h3>work</h3>
           <div className='client-list'>
             <h1 className='previous-clients'>
-              <span id='obama'>barack obama</span>
+              <span id='obama'>president barack obama</span>
               <img
                 src={obamapicture}
                 alt=''

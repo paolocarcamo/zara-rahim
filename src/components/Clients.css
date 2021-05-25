@@ -49,16 +49,16 @@ span {
   font-weight: 100;
 }
 
-.previous-clients:hover {
-  cursor: pointer;
-}
-
 .hidden-client-image {
   display: none;
   width: 30%;
 }
 
-#obama:hover + img,
+/* .previous-clients:hover {
+  cursor: pointer;
+} */
+
+/* #obama:hover + img,
 #hillary-span:hover + img,
 #a-two-four:hover + img,
 #vogue:hover + img {
@@ -123,7 +123,7 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 #and-more {
   font-family: 'degular-medium', sans-serif;
@@ -142,11 +142,6 @@ span {
 
   .client-list-container {
     padding-left: 0;
-  }
-
-  .previous-clients:hover {
-    color: #000;
-    cursor: pointer;
   }
 
   #obama:hover + img,
@@ -213,11 +208,6 @@ span {
     display: none;
     color: black;
   }
-
-  .previous-clients:hover {
-    color: #000;
-    cursor: pointer;
-  }
 }
 
 @media screen and (max-width: 414px) {
@@ -270,10 +260,5 @@ span {
   #uber:hover + img {
     display: none;
     color: black;
-  }
-
-  .previous-clients:hover {
-    color: #000;
-    cursor: pointer;
   }
 }

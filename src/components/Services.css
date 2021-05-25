@@ -5,7 +5,7 @@
 }
 
 .list-of-services {
-  padding-left: 220px;
+  padding-left: 200px;
   text-align: center;
   text-transform: uppercase;
   line-height: 0.8;
@@ -31,6 +31,12 @@
   white-space: pre;
 }
 
+@media screen and (height: 1200px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .list-of-services {
+    margin-left: 330px;
+  }
+}
+
 @media screen and (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
   .list-of-services {
     margin-left: 80px;
@@ -49,7 +55,7 @@
 
 @media screen and (max-width: 428px) {
   .services-container {
-    width: 270px;
+    width: 250px;
     padding-left: 15px;
   }
 

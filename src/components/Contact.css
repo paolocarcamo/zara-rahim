@@ -40,6 +40,16 @@
   cursor: pointer;
 }
 
+@media screen and (height: 1200px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .contact-image-container {
+    margin-left: 1225px;
+  }
+
+  .get-in-touch-container {
+    margin-left: 1050px;
+  }
+}
+
 @media screen and (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
   .contact-image-container {
     margin-left: 950px;
@@ -71,7 +81,7 @@
   }
 
   .contact-image {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 160px;
     height: 90px;
   }
@@ -106,7 +116,7 @@
   }
 
   .contact-image {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 160px;
     height: 90px;
   }

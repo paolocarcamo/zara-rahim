@@ -25,10 +25,10 @@ function Advisor() {
               <span className='advisor-desktop-break'>to</span> business
               leaders, startups,{' '}
               <span className='advisor-desktop-break'>artists,</span> musicians,
-              brands, media entities,{' '}
-              <span className='advisor-desktop-break'>internet</span>{' '}
-              personalities, meme-lords,{' '}
-              <span className='advisor-desktop-break'>comedians,</span>{' '}
+              brands, internet{' '}
+              <span className='advisor-desktop-break'>personalities, </span>
+              media entities, comedians,{' '}
+              <span className='advisor-desktop-break'>athletes,</span>{' '}
               accidental villains, aspiring{' '}
               <span className='advisor-desktop-break'>heroes,</span> underdogs,
               and friends.
