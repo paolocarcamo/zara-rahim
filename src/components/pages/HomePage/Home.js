@@ -1,10 +1,11 @@
 import React from 'react';
 import Zara from '../../Zara';
 import Testimonial from '../../Testimonial';
-import Clients from '../../Clients';
 import Advisor from '../../Advisor';
 import Expertise from '../../Expertise';
 import Services from '../../Services';
+import Work from '../../Work';
+import Press from '../../Press';
 import Contact from '../../Contact';
 
 function Home() {
@@ -15,7 +16,8 @@ function Home() {
       <Advisor />
       <Expertise />
       <Services />
-      <Clients />
+      <Work />
+      <Press />
       <Contact />
     </>
   );

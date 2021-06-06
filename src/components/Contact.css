@@ -1,14 +1,12 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 100px;
-  margin-right: 45px;
 }
 
 .contact-image-container {
   margin-top: 10px;
-  margin-left: 880px;
   margin-bottom: -30px;
 }
 
@@ -16,10 +14,6 @@
   position: relative;
   z-index: 99;
   height: 80px;
-}
-
-.get-in-touch-container {
-  margin-left: 710px;
 }
 
 .get-in-touch-container img {
@@ -36,38 +30,8 @@
 .get-in-touch-container:hover .contact-top-image {
   display: inline;
   position: absolute;
-  left: 710px;
+  left: 435px;
   cursor: pointer;
-}
-
-@media screen and (height: 1200px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
-  .contact-image-container {
-    margin-left: 1225px;
-  }
-
-  .get-in-touch-container {
-    margin-left: 1050px;
-  }
-}
-
-@media screen and (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
-  .contact-image-container {
-    margin-left: 950px;
-  }
-
-  .get-in-touch-container {
-    margin-left: 780px;
-  }
-}
-
-@media screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
-  .contact-image-container {
-    margin-left: 720px;
-  }
-
-  .get-in-touch-container {
-    margin-left: 540px;
-  }
 }
 
 @media screen and (height: 602px) and (width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
@@ -86,24 +50,18 @@
     margin-left: -60px;
   }
 
-  .contact-image-container {
-    margin-left: 20px;
-  }
-
   .contact-image {
-    margin-top: 25px;
-    margin-left: 160px;
-    height: 90px;
+    margin-top: 20px;
+    height: 120px;
+    width: 1px;
   }
 
   .contact-container {
-    margin-top: -190px;
-    margin-left: 90px;
+    margin-top: -40px;
   }
 
   .get-in-touch-container {
     background-color: transparent;
-    margin-left: 40px;
   }
 
   .get-in-touch-container img {
@@ -116,29 +74,20 @@
 }
 
 @media screen and (max-width: 414px) {
-  .client-list-container {
-    padding-right: 0px;
-    margin-left: -60px;
-  }
-
-  .contact-image-container {
-    margin-left: 20px;
+  .contact-container {
+    display: flex;
+    align-items: center;
   }
 
   .contact-image {
-    margin-top: 25px;
-    margin-left: 160px;
-    height: 90px;
-  }
-
-  .contact-container {
-    margin-top: -190px;
-    margin-left: 90px;
+    height: 120px;
+    width: 1px;
+    margin-top: 180px;
+    margin-bottom: 15px;
   }
 
   .get-in-touch-container {
     background-color: transparent;
-    margin-left: 40px;
   }
 
   .get-in-touch-container img {

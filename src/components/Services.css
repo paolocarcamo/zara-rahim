@@ -31,6 +31,18 @@
   white-space: pre;
 }
 
+@media screen and (height: 1080px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .list-of-services {
+    margin-left: 350px;
+  }
+}
+
+@media screen and (height: 930px) and (width: 1624px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .list-of-services {
+    margin-left: 200px;
+  }
+}
+
 @media screen and (height: 1200px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
   .list-of-services {
     margin-left: 330px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Clients.css';
+import './Work.css';
 import clientsLine from './images/clientsimage.png';
 import obamapicture from './images/Obama.jpg';
 import hillarypicture from './images/Hillary.jpg';
@@ -7,7 +7,7 @@ import atwofourpicture from './images/A24.jpeg';
 import mariahpicture from './images/Mariah.jpg';
 import netflixpicture from './images/Netflix.png';
 
-function Clients() {
+function Work() {
   return (
     <>
       <div className='clients-container'>
@@ -103,7 +103,7 @@ function Clients() {
   );
 }
 
-export default Clients;
+export default Work;
 
 // Tighter line height
 // Client list font weight

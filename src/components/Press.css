@@ -1,0 +1,109 @@
+.press-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.press-image {
+  height: 200px;
+  background-color: transparent;
+  transform: rotate(-15deg);
+  margin-top: -15px;
+  margin-left: 150px;
+  margin-bottom: 80px;
+}
+
+#press-header {
+  font-family: 'degular', sans-serif;
+  font-weight: 500;
+}
+
+.list-of-press {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-of-press a {
+  color: #000;
+  text-decoration: none;
+}
+
+.list-of-press a:hover {
+  color: rgb(233, 111, 37);
+}
+
+.list-of-press h3 {
+  font-family: 'degular';
+  font-weight: 100;
+  margin-bottom: -20px;
+}
+
+.list-of-press h2 {
+  font-family: 'degular-display';
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: none;
+  text-align: center;
+  line-height: 0.9;
+}
+
+.press-desktop-break::after {
+  content: '\a';
+  white-space: pre;
+}
+
+@media screen and (max-width: 428px) {
+  .press-image {
+    height: 100px;
+    background-color: transparent;
+    transform: rotate(-15deg);
+    margin-top: -100px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  .press-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+
+  .press-mobile-break::after {
+    content: '\a';
+    white-space: pre;
+  }
+
+  .list-of-press h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .press-image {
+    height: 100px;
+    background-color: transparent;
+    transform: rotate(-15deg);
+    margin-top: -100px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+
+  .press-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+
+  .press-mobile-break::after {
+    content: '\a';
+    white-space: pre;
+  }
+
+  .list-of-press h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+}
