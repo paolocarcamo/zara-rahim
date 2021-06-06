@@ -34,13 +34,30 @@
   cursor: pointer;
 }
 
-@media screen and (height: 602px) and (width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
-  .contact-image-container {
-    margin-left: 900px;
+@media screen and (height: 1080px) and (width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .get-in-touch-container:hover .contact-top-image {
+    display: inline;
+    position: absolute;
+    left: 785px;
+    cursor: pointer;
   }
+}
 
-  .get-in-touch-container {
-    margin-left: 725px;
+@media screen and (height: 930px) and (width: 1624px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .get-in-touch-container:hover .contact-top-image {
+    display: inline;
+    position: absolute;
+    left: 636px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (height: 602px) and (width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .get-in-touch-container:hover .contact-top-image {
+    display: inline;
+    position: absolute;
+    left: 465px;
+    cursor: pointer;
   }
 }
 
