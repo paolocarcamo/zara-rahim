@@ -92,7 +92,7 @@ function Press() {
           <br />
           <a href='https://www.huffpost.com/entry/hillary-clinton-muslim-outreach_n_5800fe72e4b0e8c198a7a27c?ipvdghudrhl2i6bt9='>
             <h2>
-              Hilary Clinton <span className='press-mobile-break'>Is</span>{' '}
+              Hillary Clinton <span className='press-mobile-break'>Is</span>{' '}
               Organizing <span className='press-mobile-break'>Muslim</span>{' '}
               Voters. <span className='press-desktop-break'>They</span>{' '}
               <span className='press-mobile-break'>Could </span>
