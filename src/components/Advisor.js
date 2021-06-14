@@ -1,6 +1,6 @@
 import React from 'react';
 import './Advisor.css';
-import advisorLine from './images/advisorimage.png';
+import zararahimline2 from './images/advisorimage.png';
 
 function Advisor() {
   return (
@@ -10,8 +10,8 @@ function Advisor() {
           <div className='advisor-image-container'>
             <img
               className='advisor-image'
-              src={advisorLine}
-              alt='advisor-line'
+              src={zararahimline2}
+              alt='zara rahim line 2'
             />
           </div>
           <div className='description-container'>

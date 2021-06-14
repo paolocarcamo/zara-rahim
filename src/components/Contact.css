@@ -16,6 +16,14 @@
   height: 80px;
 }
 
+.get-in-touch-container {
+  text-align: center;
+}
+
+.hover-get-in-touch-container {
+  text-align: center;
+}
+
 .get-in-touch-container img {
   background-color: transparent;
   width: 350px;
@@ -28,9 +36,9 @@
 }
 
 .get-in-touch-container:hover .contact-top-image {
-  display: inline;
-  position: absolute;
-  left: 435px;
+  display: inline-block;
+  vertical-align: middle;
+  left: 437px;
   cursor: pointer;
 }
 

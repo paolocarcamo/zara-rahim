@@ -1,6 +1,6 @@
 import React from 'react';
 import './Work.css';
-import clientsLine from './images/clientsimage.png';
+import zararahimline4 from './images/clientsimage.png';
 import obamapicture from './images/Obama.jpg';
 import hillarypicture from './images/Hillary.jpg';
 import atwofourpicture from './images/A24.jpeg';
@@ -13,8 +13,8 @@ function Work() {
       <div className='clients-container'>
         <div className='client-image-container'>
           <img
-            src={clientsLine}
-            alt='client-line'
+            src={zararahimline4}
+            alt='zara rahim line 4'
             className='client-line-image'
           />
         </div>

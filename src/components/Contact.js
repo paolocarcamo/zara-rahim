@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.css';
-import contactimage from './images/contactimage.png';
+import zararahimline5 from './images/contactimage.png';
 // import { Link } from 'react-router-dom';
-import getintouchimage from './images/getintouch.png';
-import hovergetintouchimage from './images/hovergetintouch.png';
+import zararahimcontact from './images/getintouch.png';
+import zararahimcontacthover from './images/hovergetintouch.png';
 
 function Contact() {
   return (
@@ -11,9 +11,9 @@ function Contact() {
       <div className='contact-container'>
         <div className='contact-image-container'>
           <img
-            src={contactimage}
+            src={zararahimline5}
             alt='contact-line'
-            className='contact-image'
+            className='zara rahim line 5'
           />
         </div>
         <div
@@ -23,12 +23,15 @@ function Contact() {
           data-aos-duration='1000'
         >
           {/* <Link to='/get-in-touch' className='contact-link'> */}
-          <a href='mailto:hello@zararahim.com '>
-            <img src={getintouchimage} alt='get-in-touch' />
+          <a
+            href='mailto:hello@zararahim.com'
+            target='mailto:hello@zararahim.com'
+          >
             <img
-              src={hovergetintouchimage}
-              alt='hover-get-in-touch'
-              className='contact-top-image'
+              src={zararahimcontact}
+              alt='zara rahim contact'
+              onMouseOver={(e) => (e.currentTarget.src = zararahimcontacthover)}
+              onMouseOut={(e) => (e.currentTarget.src = zararahimcontact)}
             />
           </a>
           {/* </Link> */}
@@ -39,3 +42,5 @@ function Contact() {
 }
 
 export default Contact;
+
+//=useState

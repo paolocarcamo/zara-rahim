@@ -1,6 +1,6 @@
 import React from 'react';
 import './Testimonial.css';
-import testimonialLine from './images/testimonialimage.png';
+import zararahimline1 from './images/testimonialimage.png';
 
 function Testimonial() {
   return (
@@ -10,8 +10,8 @@ function Testimonial() {
           <div className='testimonial-image-container'>
             <img
               className='testimonial-image'
-              src={testimonialLine}
-              alt='testimonial-line'
+              src={zararahimline1}
+              alt='zararahimline1'
             />
           </div>
           <div

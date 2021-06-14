@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
-import navbarlogo from './images/navbarlogo.png';
+import zararahimnav from './images/navbarlogo.png';
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -30,7 +30,11 @@ function Navbar() {
             className='navbar-logo-container'
             smooth={true}
           >
-            <img src={navbarlogo} alt='navbar-logo' className='navbar-logo' />
+            <img
+              src={zararahimnav}
+              alt='zara rahim navigation'
+              className='navbar-logo'
+            />
           </Link>
         </div>
       </div>

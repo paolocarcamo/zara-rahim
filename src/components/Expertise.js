@@ -1,6 +1,6 @@
 import React from 'react';
 import './Expertise.css';
-import expertiseLine from './images/expertiseimage.png';
+import zararahimline3 from './images/expertiseimage.png';
 
 function Expertise() {
   return (
@@ -10,8 +10,8 @@ function Expertise() {
           <div className='expertise-image-container'>
             <img
               className='expertise-image'
-              src={expertiseLine}
-              alt='expertise-line'
+              src={zararahimline3}
+              alt='zara rahim line 3'
             />
           </div>
           <div

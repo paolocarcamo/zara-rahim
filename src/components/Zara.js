@@ -1,8 +1,8 @@
 import React from 'react';
 import './Zara.css';
 import { Link } from 'react-scroll';
-import landingimage from './images/landingimage.png';
-import hoverlandingimage from './images/hoverlandingimage.png';
+import zararahimheader from './images/landingimage.png';
+import zararahimheaderhover from './images/hoverlandingimage.png';
 
 function Zara() {
   return (
@@ -10,10 +10,10 @@ function Zara() {
       <div className='zara-section'>
         <div className='landing-logo-wrapper'>
           <Link to='testimonial-section' smooth={true}>
-            <img src={landingimage} alt='landing-logo' />
+            <img src={zararahimheader} alt='zara rahim header' />
             <img
-              src={hoverlandingimage}
-              alt='landing-logo'
+              src={zararahimheaderhover}
+              alt='zara rahim header hover'
               id='transition-landing-logo'
             />
           </Link>
@@ -24,3 +24,5 @@ function Zara() {
 }
 
 export default Zara;
+
+//Transition to an onMouseOver & onMouseOut function*
